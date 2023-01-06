@@ -26,7 +26,3 @@ RUN micromamba install -y -n base -f /tmp/env.yaml && \
     micromamba clean --all --yes
 ARG MAMBA_DOCKERFILE_ACTIVATE=1  # (otherwise python will not be found)
 ```
-
-# TODOs
-- [ ] What is the best way to include personalized dotfiles in the development
-process? Certain solutions recommend a separate repository for dotfiles
